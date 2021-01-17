@@ -1,0 +1,316 @@
+/*topest section */
+        #top-info{
+            background-color: red;
+            width: 100%;
+            text-align: center;
+            height: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #top-info span{
+            margin-right: 20px;
+        }
+        .fa-phone-alt{
+            color: white;
+        }
+        .fa-envelope{
+            color: white;
+        }
+        /*navbar area*/
+        
+        #nav-right{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+        }
+        #nav-right span a{
+            display: inline-block;
+            padding: 20px;
+            
+        }
+        .nav-left span a{
+            display: inline-block;
+            padding: 20px;
+            
+        }
+        .active{
+            color: red;
+        }
+        .navbar-link{
+            display: block;
+        }
+        .navbar-link:hover{
+            background-color: red;
+        }
+        .tit{
+            font-size: 25px;
+        }
+        .tit span{
+            color: red;
+        }
+        /*end of navbar area*/
+
+        /*intoduction area section*/
+        .intro-area{
+            background-image: url("images/header-image.jpg");
+            width: 100%;
+            height: 700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+
+        }
+        .intro-text{
+            font-size: 35px;
+            color: black;
+        }
+        .introButtonA,.introButtonB{
+            height: 42px;
+            width: 160px;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            font-size: 15px;
+        }
+        .introButtonA{
+            background-color: red;
+            color: white;
+            
+        }
+        .introButtonA:hover{
+            border: 1px solid red;
+            background-color: transparent;
+
+        }
+        .introButtonB:hover{
+            background-color: transparent;
+            border: 1px solid white;
+            color: red;
+        }
+        .introButtonB{
+            background-color: white;
+            color: black;
+        }
+
+        /*End intoduction area section*/
+        /*illustration section*/
+        .illustration{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: auto;
+        }
+        
+        .illustration-button{
+            height: 42px;
+            width: 150px;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            background-color: red;
+            color: white;
+            font-size: 15px;
+        }
+        .illustration-button:hover{
+            color: black;
+            border: 1px solid red;
+            background-color: transparent;
+        }
+        #illustrationImage{
+            height: 400px;
+            width: 550px;
+        }
+        .illustration-content{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            float: left;
+        }
+        /*end of illustration section*/
+
+        /*Services section*/
+        .serviceContainer{
+            background-color: #d9d9d9 ;
+            margin-top: 30px;
+            padding-bottom: 70px;
+        }
+        .service-header{
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 40px;
+        }
+        
+        .service-item-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .service-item{
+            height: 350px;
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 4px 4px 10px #cccccc ,-4px -4px 10px #e6e6e6;
+        }
+        .iconContainer{
+            border: 1px solid transparent;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+        }
+        .fa-code,.fa-slack,.fa-microchip{
+            font-size: 30px;
+            color: white;
+        }
+        /*End of Services section*/
+        /*testimonial section start*/
+        .testimonialsContainer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+
+        }
+        .testimonialsHeader{
+            text-align: center;
+        }
+        .testimonialImage{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-image: url("images/img1.jpg");
+            background-size: cover;
+        }
+        .testimonialItem{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            
+        }
+        .testimonialsCarousel{
+            width: 100%;
+        }
+        /*End of testimonial page*/
+
+        /*Ready to get started */
+        .getStarted{
+            background-image: url("images/header-image.jpg");
+            padding: 100px 0px;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .getStartedBtn{
+            height: 42px;
+            width: 160px;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            font-size: 15px;
+            background-color: red;
+        }
+        .getStartedBtn:hover{
+            background-color: transparent;
+            border: 1px solid red;
+            color: red;
+        }
+        .getStarted h2{
+            color: whitesmoke;
+        }
+        /*End of ready to get started*/
+
+       /*media querys for mobile navigation bar*/
+       @media(max-width: 650px){
+            .intro-area{
+                background-image: url("images/header-image.jpg");
+                width: 100%;
+                height: 500px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            
+
+            }
+            #top-info{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: auto;
+                padding: 5px 0px;
+            }
+            .desktop-Nav{
+                display: none;
+            }
+            
+            .barsHolder{
+                position: relative;
+                left: 150px;
+                font-size: 25px;
+            }
+            .mobile-Links{
+                height: auto;
+            }
+            .mobileLink{
+                width: 100%;
+                height: 30px;
+                display: inline-block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        /*mobile navbar hide*/
+        @media(min-width: 650px){
+            .mobile-Nav{
+                display: none;
+            }
+        }
+        /*End of media querys for mobile navigation bar*/
+
+
+
+
+
+
+
